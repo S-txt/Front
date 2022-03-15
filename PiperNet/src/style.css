@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+body {
+    margin: 0;
+}
+a:active, /* активная/посещенная ссылка */
+a:visited,/* при наведении */
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in;
+}
+a:hover{
+    color: grey;
+}
+.header{
+    display: flex;
+    height: 84px;
+    background-color: #007765;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-inline: 55px;
+}
+
+.menu_list{
+    list-style:none;
+    display: flex;
+    //background-color: lightgray;
+    width: 424px;
+    height: 30px;
+    flex-basis: 100%;
+    justify-content: space-around;
+}
+li {
+    font-family: Roboto, serif;
+    font-size: 24px;
+    color: white;
+    //background-color: grey;
+
+}
+.jumbotron{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 403px;
+    background-image: url("img/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.problem{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #EEEEEE;
+    padding: 48px 55px 100px 55px;
+
+
+}
+.problem > .ar2{
+    display: flex;
+    justify-content: center;
+    color: #007765;}
+
+.hero{
+    display: flex;
+    background-image: url("img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 483px;
+}
+.hero > .ar3 {
+    padding:128px 55px 142px 55px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ppc {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #FFFFFF;
+    padding: 48px 55px 100px 55px;
+    flex-basis: 100%;
+}
+.ppc > img{
+    height: 115px;
+    width: 115px;
+    padding-right: 46px;
+    padding-bottom: 46px;
+}
+.ppc > .ar3 {
+    color: #007765;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 100%;
+}
+.ppc > .ar4{
+    flex-basis: 80%;
+}
+
+.team {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #EEEEEE;
+
+    width: 100%;
+}
+
+.team > .ar2 {
+    justify-content: center;
+    flex-basis: 100%;
+    color: #007765;
+    text-align: center;
+    padding-bottom: 72px;
+}
+.memcard {
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.memcard > img{
+
+}
+.pos{
+    font-style: italic;
+    text-align: center;
+}
+.name{
+    color: #007765;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #333333;
+    padding: 48px;
+    padding-inline: 340px;
+
+}
+.footer > .ar6{
+    font-family: Roboto regular, sans-serif;
+    color: white;
+
+
+}
+
+
+.ar1{
+    font-family: Roboto, serif;
+    font-size: 72px;
+}
+.ar2{
+    font-family: Roboto, serif;
+    font-size: 64px;
+}
+.ar3{
+    font-family: Roboto, serif;
+    font-size: 48px;
+}
+.ar4{
+    font-family: Roboto, serif;
+    font-size: 32px;
+}
+.ar5{
+    font-family: Roboto, serif;
+    font-size: 24px;
+}
+.ar6{
+    font-family: Roboto, serif;
+    font-size: 18px;
+}
